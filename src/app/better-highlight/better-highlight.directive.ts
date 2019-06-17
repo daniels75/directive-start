@@ -24,7 +24,7 @@ export class BetterHighlightDirective implements OnInit{
 
   @HostListener('mouseleave') mouseleave(eventData: Event) {
     // this.renderer.setStyle(this.elementRef.nativeElement, "backgroundColor", "yellow");
-    // 2 approaches
+    // 2nd approach
     this.backgroundColor = this.defaultColor;
   }
 }
