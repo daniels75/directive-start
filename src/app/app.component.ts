@@ -10,4 +10,6 @@ export class AppComponent {
   oddNumbers = [1,3,5];
   eventNumbers = [2,4]
   onlyOdd = false;
+  value = 5;
 }
+
